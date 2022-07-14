@@ -1,33 +1,34 @@
-import Heart from './Heart';
+//import Heart from './Heart';
+import CandyColoredHeart from "./CandyColoredHeart";
 
 const messages = [
     'Hey Boo',
-    'me my <3',
+    'me my ❤️',
     'you are bear',
     'team bear',
-    'time hug',
-    'fang',
-    'bog love',
+    'hug me',
+    'kis mee',
+    'puppy love',
     'me have love',
-    'all hover',
-    'sweat poo',
-    'u hack',
-    'stank love',
-    'heart me',
-    'wink bear',
-    'bear bear',
+    'all over you',
+    'sweat pea',
+    'u rock',
+    'XoxO',
+    '❤️ me',
+    'winky bear',
+    'Honey bear',
     'be my bear',
-    'yank o way',
-    'mage love',
-    'oy',
-    'in a fan'
+    'It\'s ❤️❤️❤️ Rated',
+    'mega love',
+    'I ❤️ LoFi',
+    'I\'m a Fan'
 ];
 
 const HeartsList = () => {
     return (
         <div className='hearts-container'>
             {messages.map((message, index) => (
-                <Heart key={index} msg={message} />
+                <CandyColoredHeart key={index} msg={message} />
             ))}
         </div>
     );
